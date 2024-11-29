@@ -12,7 +12,7 @@ public class UController {
 
     @GetMapping("/home")
     public String home() {
-        return "home page";
+        return "home page - done";
     }
 
 }
