@@ -7,13 +7,12 @@ import org.springframework.web.bind.annotation.GetMapping;
 public class UController {
     @GetMapping("/login")
     public String login() {
-        return "login";
+        return "login page";
     }
 
     @GetMapping("/home")
     public String home() {
         return "home page";
-
     }
 
 }
